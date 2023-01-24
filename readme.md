@@ -30,6 +30,9 @@
 
 ##Start testing
 
+>Important! 
+>Before you start, remember to run "npm install" in your console in order to install the necessary dependencies to run this test suite.
+
 >In the file "package.json" is declared "test", which we will use to run the tests in the console through the command "npm run test". 
 - In case you want to carry out only one test suite, it can be done by modifying the "package.json" file, in the "test" command by: "npx wdio run ./wdio.conf.js --suite e2eTests", for example , in case you want to run only the End to End tests; 
 - In case you want to run only the Standard User's Tests, just change that command by: "npx wdio run ./wdio.conf.js --suite standardUser".
